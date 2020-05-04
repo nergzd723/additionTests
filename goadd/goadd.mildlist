@@ -1,0 +1,3 @@
+nasm64 = Compiler("nasm -felf64", "argument.extension", "-o argument", "asm")
+gccgo = Compiler("gccgo", "argument.go argument", "-o argument.o")
+Generate("addgo.o")

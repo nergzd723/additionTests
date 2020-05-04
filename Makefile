@@ -1,3 +1,3 @@
 all:
-	nasm -felf add.asm
-	gcc -Wall -lgcc -m32 add.o add.c -o add
+	nasm -felf64 add.asm
+	gcc -Wall -lgcc add.o add.c -o add
